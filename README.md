@@ -9,6 +9,8 @@
 - 有线网卡：RTL8111H
 - 无线网卡：Broadcom BCM4331
 
+**注：点击[此处](https://github.com/lichongjia/EFI-ASUS-B250M/releases)下载最新版**
+
 ## 更新日志
 
 ### 2019/11/16
