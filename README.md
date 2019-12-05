@@ -12,7 +12,8 @@
 **注：从[此处](https://github.com/lichongjia/EFI-ASUS-B250M/releases)下载最新版**
 
 多系统引导界面(macOS,Windows10,Ubuntu,OpenCore,Clover):
-![1](http://q21c4rpbu.bkt.clouddn.com/mweb/1.png)
+![BootMenu](./BootMenu.png)
+
 
 ## 更新说明
 
