@@ -6,7 +6,6 @@ OpenCore一方面由于出来不久的原因，并且工具也还在完善中，
 https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf
 
 综合性教程，比较通用且全面
-opencore-vanilla-desktop-guide
 https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/
 
 黑果小兵的教程，适合原生NVRAM的主板
@@ -41,8 +40,9 @@ USB相关，因为苹果原生EC控制器在DSDT中就叫EC，是否使用重命
 网卡，使用相应的kext网卡驱动即可
 
 
-## Boot参数说明
+### Boot参数说明
 `dartwake=0`可选项，支持睡眠一键唤醒
+
 `dar=0`提供针对VT-d的额外保护
 
 `debug=0x100`若重启时发生内核恐慌，启用此项来查看原因
@@ -51,6 +51,7 @@ USB相关，因为苹果原生EC控制器在DSDT中就叫EC，是否使用重命
 
 `-v`跑代码模式，全部配置无误后，可移出
 
-### 其它待解决的问题
+### 待解决的问题
 > `待解决:声卡内建输入输出名称更改问题`
+
 > `查看ProximityWake=1的问题，深度休眠预留空间，此功能是若有相关移动设备靠近mac，则会唤醒电脑`
