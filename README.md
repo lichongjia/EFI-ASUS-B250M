@@ -14,10 +14,6 @@
 多系统引导界面(macOS,Windows10,Ubuntu,OpenCore,Clover):
 ![1](http://q21c4rpbu.bkt.clouddn.com/mweb/1.png)
 
-
-![USB_ports_custom-for-_ASUS-B250M-A](http://q21c4rpbu.bkt.clouddn.com/mweb/USB_ports_custom-for-_ASUS-B250M-A.jpg)
-
-
 ## 更新说明
 
 * 已转OpenCore！后续更新将主要精力放在OC上。
