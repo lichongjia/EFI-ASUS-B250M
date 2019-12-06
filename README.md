@@ -20,7 +20,7 @@
 * 已转OpenCore！后续更新将主要精力放在OC上。
 * Clover版本已经非常完美了，后续不会有大改动，仅更新版本号和驱动。
 
-<center>![QRcode](./Other-baks/qrcode_for_wechatblog.jpg)</center>
+![QRcode](./Other-baks/qrcode_for_wechatblog.jpg)
 
 
 
