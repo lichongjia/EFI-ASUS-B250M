@@ -9,7 +9,7 @@ This EFI configuration works perfectly on my desktop. If your configuration happ
 
 **Please download the latest version from [Here](https://github.com/lichongjia/EFI-ASUS-B250M/releases).**
 
-Additional tutorial：[Making a multi-functional bootable USB flash drive](Others/bootUSB.md)
+Additional tutorial：[Making a multi-functional bootable USB flash drive](Docs/BootUSB.md)
 
 
 
@@ -18,7 +18,7 @@ Additional tutorial：[Making a multi-functional bootable USB flash drive](Other
 | Specifications        | Detail                                 |
 | :-------------------- | :------------------------------------- |
 | Motherboard           | ASUS Prime B250M-A                     |
-| Processor             | Intel Core i7-7500 @ 3.40GHz           |
+| Processor             | Intel Core i5-7500 @ 3.40GHz           |
 | Memory                | Kingston 8GBx3 DDR4 2400MHz            |
 | Hard Disk             | WD Blue SN500 NVMe SSD 500G            |
 | Integrated Video Card | Intel HD Graphics 630（id=0x59120003） |
