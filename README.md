@@ -9,7 +9,7 @@ EFI-ASUS-B250M
 
 **请从[此处](https://github.com/lichongjia/EFI-ASUS-B250M/releases)下载最新版。**
 
-附加教程：[制作多功能多启动多合一引导U盘](Others/bootUSB.md)
+附加教程：[制作多功能多启动多合一引导U盘](Docs/BootUSB.md)
 
 
 
@@ -18,7 +18,7 @@ EFI-ASUS-B250M
 | 配置     | 产品型号                               |
 | :------- | :------------------------------------- |
 | 主板     | ASUS Prime B250M-A                     |
-| 处理器   | Intel Core i7-7500 @ 3.40GHz           |
+| 处理器   | Intel Core i5-7500 @ 3.40GHz           |
 | 内存     | Kingston 8GBx3 DDR4 2400MHz            |
 | 硬盘     | WD Blue SN500 NVMe SSD 500G            |
 | 核显     | Intel HD Graphics 630（id=0x59120003） |
