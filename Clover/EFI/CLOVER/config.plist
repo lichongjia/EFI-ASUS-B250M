@@ -4,75 +4,10 @@
 <dict>
 	<key>ACPI</key>
 	<dict>
-		<key>AutoMerge</key>
-		<true/>
 		<key>DSDT</key>
 		<dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
-			<key>Patches</key>
-			<array>
-				<dict>
-					<key>Comment</key>
-					<string>Method(GPRW,2,N) to XPRW</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>QAZHUFJX</data>
-					<key>Replace</key>
-					<data>QAZYUFJX</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>GFX0 to IGPU</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>R0ZYMA==</data>
-					<key>Replace</key>
-					<data>SUdQVQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>HDAS to HDEF</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>SERBUw==</data>
-					<key>Replace</key>
-					<data>SERFRg==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>HECI to IMEI</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>SEVDSQ==</data>
-					<key>Replace</key>
-					<data>SU1FSQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>SAT0 to SATA</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>U0FUMA==</data>
-					<key>Replace</key>
-					<data>U0FUQQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Fix bug SKL+</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>oAqTU1RBUwE=</data>
-					<key>Replace</key>
-					<data>oAqRCv8L//8=</data>
-				</dict>
-			</array>
 		</dict>
 		<key>DropTables</key>
 		<array>
@@ -81,33 +16,16 @@
 				<string>DMAR</string>
 			</dict>
 		</array>
-		<key>FixHeaders</key>
-		<true/>
-		<key>FixMCFG</key>
-		<true/>
-		<key>HaltEnabler</key>
-		<true/>
-		<key>RenameDevices</key>
-		<dict>
-			<key>_SB.PCI0.PEG0.PEGP</key>
-			<string>GFX0</string>
-			<key>_SB.PCI0.RP08.PXSX</key>
-			<string>GIGE</string>
-			<key>_SB.PCI0.RP09.PXSX</key>
-			<string>SSD0</string>
-		</dict>
 		<key>SSDT</key>
 		<dict>
 			<key>NoDynamicExtract</key>
-			<true/>
-			<key>NoOemTableId</key>
 			<true/>
 		</dict>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 -no_compat_check</string>
+		<string>dart=0</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>DefaultLoader</key>
@@ -123,11 +41,6 @@
 	</dict>
 	<key>Devices</key>
 	<dict>
-		<key>Audio</key>
-		<dict>
-			<key>ResetHDA</key>
-			<true/>
-		</dict>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
@@ -143,18 +56,7 @@
 				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
 				<data>AAAwAQ==</data>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
-				<key>model</key>
-				<string>Intel HD Graphics 630</string>
 			</dict>
-		</dict>
-		<key>USB</key>
-		<dict>
-			<key>AddClockID</key>
-			<true/>
-			<key>FixOwnership</key>
-			<true/>
 		</dict>
 	</dict>
 	<key>GUI</key>
@@ -172,8 +74,6 @@
 					<false/>
 					<key>Ignore</key>
 					<false/>
-					<key>Image</key>
-					<string>\EFI\CLOVER\themes\Mojave-JFZ\icons\os_moja.icns</string>
 					<key>NoCaches</key>
 					<false/>
 					<key>Type</key>
@@ -192,8 +92,6 @@
 					<false/>
 					<key>Ignore</key>
 					<false/>
-					<key>Image</key>
-					<string>\EFI\CLOVER\themes\Mojave-JFZ\icons\os_vista.icns</string>
 					<key>Path</key>
 					<string>\EFI\Microsoft\Boot\bootmgfw.efi</string>
 					<key>Type</key>
@@ -210,6 +108,11 @@
 			<string>Preboot</string>
 			<string>Recovery</string>
 		</array>
+		<key>Mouse</key>
+		<dict>
+			<key>Enabled</key>
+			<false/>
+		</dict>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
@@ -224,27 +127,7 @@
 		<key>ScreenResolution</key>
 		<string>2560x1440</string>
 		<key>Theme</key>
-		<string>Mojave-JFZ</string>
-	</dict>
-	<key>KernelAndKextPatches</key>
-	<dict>
-		<key>KextsToPatch</key>
-		<array>
-			<dict>
-				<key>Comment</key>
-				<string>Enable TRIM for SSD</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>AEFQUExFIFNTRAA=</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.iokit.IOAHCIBlockStorage</string>
-				<key>Replace</key>
-				<data>AAAAAAAAAAAAAAA=</data>
-			</dict>
-		</array>
+		<string>ASUS</string>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
@@ -253,65 +136,27 @@
 		<key>CsrActiveConfig</key>
 		<string>0x3E7</string>
 		<key>MLB</key>
-		<string>C02733102J9J0PG1H</string>
+		<string>C02715902QXJ0PG8C</string>
 		<key>ROM</key>
-		<string>UseMacAddr0</string>
+		<data>EHtEUhqN</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
-		<key>BiosReleaseDate</key>
-		<string>10/30/2019</string>
-		<key>BiosVendor</key>
-		<string>Apple Inc.</string>
-		<key>BiosVersion</key>
-		<string>IM183.88Z.F000.B00.1910301943</string>
 		<key>Board-ID</key>
 		<string>Mac-BE088AF8C5EB4FA2</string>
-		<key>BoardManufacturer</key>
-		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
 		<string>C02733102J9J0PG1H</string>
-		<key>BoardType</key>
-		<integer>10</integer>
-		<key>BoardVersion</key>
-		<string>1.0</string>
-		<key>ChassisAssetTag</key>
-		<string>iMac-Aluminum</string>
-		<key>ChassisManufacturer</key>
-		<string>Apple Inc.</string>
-		<key>ChassisType</key>
-		<string>0x09</string>
-		<key>EfiVersion</key>
-		<string>179.0.0.0.0</string>
-		<key>Family</key>
-		<string>iMac</string>
-		<key>FirmwareFeatures</key>
-		<string>0xFC0FE176</string>
-		<key>FirmwareFeaturesMask</key>
-		<string>0xFF1FFF7F</string>
-		<key>LocationInChassis</key>
-		<string>Part Component</string>
-		<key>Manufacturer</key>
-		<string>Apple Inc.</string>
-		<key>Mobile</key>
-		<false/>
-		<key>PlatformFeature</key>
-		<string>0x00</string>
 		<key>ProductName</key>
 		<string>iMac18,3</string>
 		<key>SerialNumber</key>
 		<string>C02V70USJ1GJ</string>
 		<key>SmUUID</key>
 		<string>ACEE1165-A708-4553-AC90-7986E72406E8</string>
-		<key>Version</key>
-		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
 		<string>Yes</string>
-		<key>InjectSystemID</key>
-		<true/>
 	</dict>
 </dict>
 </plist>
