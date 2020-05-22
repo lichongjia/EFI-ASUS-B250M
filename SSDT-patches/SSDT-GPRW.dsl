@@ -5,7 +5,8 @@
  */
 DefinitionBlock ("", "SSDT", 2, "ACDT", "GPRW", 0x00000000)
 {
-    External(XPRW, MethodObj)
+    External (XPRW, MethodObj)
+
     Method (GPRW, 2, NotSerialized)
     {
         If (_OSI ("Darwin"))
@@ -28,6 +29,7 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "GPRW", 0x00000000)
                 })
             }
         }
+
         Return (XPRW (Arg0, Arg1))
     }
 }

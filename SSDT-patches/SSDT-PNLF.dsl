@@ -1,17 +1,17 @@
-// Add PNLF
-
+/*
+ * Add PNLF.
+ */
 DefinitionBlock("", "SSDT", 2, "ACDT", "PNLF", 0x00000000)
 {
-    Scope(_SB)
+    Scope (\_SB)
     {
-        Device(PNLF)
+        Device (PNLF)
         {
-            Name(_ADR, Zero)
-            Name(_HID, EisaId ("APP0002"))
-            Name(_CID, "backlight")
+            Name (_HID, EisaId ("APP0002"))  // _HID: Hardware ID
+            Name (_CID, "backlight")  // _CID: Compatible ID
             //Skylake/KabyLake/KabyLake-R
-            Name(_UID, 16)
-            Method (_STA, 0, NotSerialized)
+            Name (_UID, 16)  // _UID: Unique ID
+            Method (_STA, 0, NotSerialized)  // _STA: Status
             {
                 If (_OSI ("Darwin"))
                 {
@@ -22,6 +22,6 @@ DefinitionBlock("", "SSDT", 2, "ACDT", "PNLF", 0x00000000)
                     Return (Zero)
                 }
             }
-        }        
+        }
     }
 }

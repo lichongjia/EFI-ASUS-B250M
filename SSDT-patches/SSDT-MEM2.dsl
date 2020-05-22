@@ -1,5 +1,6 @@
-// Add MEM2
-
+/*
+ * Add MEM2.
+ */
 DefinitionBlock ("", "SSDT", 2, "ACDT", "MEM2", 0x00000000)
 {
     Device (MEM2)

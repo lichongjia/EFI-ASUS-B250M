@@ -1,5 +1,6 @@
-// Add DMAC
-
+/*
+ * Add DMAC.
+ */
 DefinitionBlock ("", "SSDT", 2, "ACDT", "DMAC", 0x00000000)
 {
     External(_SB.PCI0.LPCB, DeviceObj)
