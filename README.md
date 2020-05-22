@@ -5,9 +5,11 @@ EFI-ASUS-B250M
 
 中文 | [English](README_en.md)
 
-此EFI配置在我自己的台式机上完美使用，不敢说百分百完美，但完成度非常之高! 如果你的配置恰好和我一样或类似，你可以根据自己的需要来选用。理论上来说，只要你是100系或以上主板，都可以使用我的EFI作为模板来配置。
+<img title="USBmap" src="Docs/USBmap.png" alt="USBmap" data-align="center">
 
-**请从[此处](https://github.com/lichongjia/EFI-ASUS-B250M/releases)下载最新版。**
+此EFI配置在我自己的台式机上所有部件都完美工作，不敢说百分百完美，但完成度非常之高！如果你的配置恰好和我一样或类似，你可以根据自己的需要来选用。理论上来说，只要你是100系或以上主板，都可以使用我的EFI作为模板来配置。
+
+***请从[Releases](https://github.com/lichongjia/EFI-ASUS-B250M/releases)下载最新版。***
 
 附加教程：[制作多功能多启动多合一引导U盘](Docs/BootUSB.md)
 
@@ -36,7 +38,7 @@ EFI-ASUS-B250M
 
 多系统引导界面，使用rEFInd管理OpenCore引导。(macOS(OpenCore), Windows10, Ubuntu)
 
-<img title="BootMenu" src="Docs/img/BootMenu.png" alt="BootMenu" data-align="center">
+<img title="BootMenuRefind" src="Docs/img/BootMenuRefind.png" alt="BootMenuRefind" data-align="center">
 
 
 

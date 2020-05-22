@@ -5,9 +5,11 @@ EFI-ASUS-B250M
 
 [中文](README.md) | English
 
-This EFI configuration works perfectly on my desktop. If your configuration happens to be the same or similar to mine, you can use it. In theory, If your motherboard is 100 series or higher, you can use my EFI as a template for configuration.
+<img title="USBmap" src="Docs/USBmap.png" alt="USBmap" data-align="center">
 
-**Please download the latest version from [Here](https://github.com/lichongjia/EFI-ASUS-B250M/releases).**
+This EFI configuration works perfectly on my desktop, Everything works fine. If your configuration happens to be the same or similar to mine, you can use it. In theory, If your motherboard is 100 series or higher, you can use my EFI as a template for configuration.
+
+***Please download the latest version from [Releases](https://github.com/lichongjia/EFI-ASUS-B250M/releases).***
 
 Additional tutorial：[Making a multi-functional bootable USB flash drive](Docs/BootUSB.md)
 
@@ -36,7 +38,7 @@ Additional tutorial：[Making a multi-functional bootable USB flash drive](Docs/
 
 Use rEFInd to load OpenCore。(macOS(OpenCore), Windows10, Ubuntu)
 
-<img title="BootMenu" src="Docs/img/BootMenu.png" alt="BootMenu" data-align="center">
+<img title="BootMenuRefind" src="Docs/img/BootMenuRefind.png" alt="BootMenuRefind" data-align="center">
 
 
 
