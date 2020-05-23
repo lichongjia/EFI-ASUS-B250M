@@ -11,6 +11,8 @@ EFI-ASUS-B250M
 
 ***请从[Releases](https://github.com/lichongjia/EFI-ASUS-B250M/releases)下载最新版。***
 
+[Docs](Docs/)文件夹有一些有用的提示和建议！
+
 附加教程：[制作多功能多启动多合一引导U盘](Docs/BootUSB.md)
 
 

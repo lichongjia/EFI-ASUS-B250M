@@ -11,6 +11,8 @@ This EFI configuration works perfectly on my desktop, Everything works fine. If 
 
 ***Please download the latest version from [Releases](https://github.com/lichongjia/EFI-ASUS-B250M/releases).***
 
+There are some tips and suggestions under the [Docs](Docs/) folder!
+
 Additional tutorial：[Making a multi-functional bootable USB flash drive](Docs/BootUSB.md)
 
 
