@@ -8,6 +8,19 @@
 		<dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
+			<key>Patches</key>
+			<array>
+				<dict>
+					<key>Comment</key>
+					<string>Method(GPRW,2,N) to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>R1BSVwI=</data>
+					<key>Replace</key>
+					<data>WFBSVwI=</data>
+				</dict>
+			</array>
 		</dict>
 		<key>DropTables</key>
 		<array>
