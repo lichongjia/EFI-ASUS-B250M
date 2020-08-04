@@ -7,7 +7,7 @@ DefinitionBlock ("", "SSDT", 2, "JFZ", "TinySSDT", 0x00001000)
 {
     External (_SB_.PCI0, DeviceObj)
     External (_SB_.PCI0.LPCB, DeviceObj)
-    External (_SB_.PCI0.SBUS.BUS0, DeviceObj)
+    External (_SB_.PCI0.SBUS, DeviceObj)
     External (_PR_.CPU0, ProcessorObj)
 /*  External (XPRW, MethodObj)  // 0D/6D wakeup patch  */
 
@@ -89,33 +89,38 @@ If (_OSI ("Darwin"))
             {
                 Name (_ADR, Zero)  // _ADR: Address
             }
-
-            Device (SBUS.BUS0)
+            
+            Scope (SBUS)
             {
-                Name (_CID, "smbus")  // _CID: Compatible ID
-                Name (_ADR, Zero)  // _ADR: Address
-                Device (DVL0)
+                Device (BUS0)
                 {
-                    Name (_ADR, 0x57)  // _ADR: Address
-                    Name (_CID, "diagsvault")  // _CID: Compatible ID
-                    Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
+                    Name (_CID, "smbus")  // _CID: Compatible ID
+                    Name (_ADR, Zero)  // _ADR: Address
+
+                    Device (DVL0)
                     {
-                        If (!Arg2)
+                        Name (_ADR, 0x57)  // _ADR: Address
+                        Name (_CID, "diagsvault")  // _CID: Compatible ID
+                        Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
                         {
-                            Return (Buffer (One)
+                            If (!Arg2)
                             {
-                                 0x57                                             // W
+                                Return (Buffer (One)
+                                {
+                                    0x57                                             // W
+                                })
+                            }
+
+                            Return (Package (0x02)
+                            {
+                                "address", 
+                                0x57
                             })
                         }
-
-                        Return (Package (0x02)
-                        {
-                            "address", 
-                            0x57
-                        })
                     }
                 }
-            }
+            }//SBUS
+
         }//PCI0
 
         /* Add Device PNLF */
