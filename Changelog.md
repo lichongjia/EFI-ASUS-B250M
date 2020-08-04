@@ -47,6 +47,13 @@
 
 ## Clover更新日志
 
+#### 2020/08/04（v3.3）
+本次更新发布两个版本：一个传统版(采用OsxAptioFix3Drv.efi)，另一个为采用OcQuirks特性的版本。
+
+- Clover更新到5120
+- 添加自制的Clover华硕矢量主题，详情请查看我的CloverVectorTheme项目。
+- 所有驱动更新到当前最新
+
 #### 2020/05/22（v3.2）
 - Clover更新到5118
 - 将所有SSDT补丁合并写入到SSDT-ASUS-B250M.dsl单个文件中
@@ -59,7 +66,6 @@
 - 所有驱动更新到当前最新
 
 #### 2020/01/21（v3.1）
-
 - Clover更新到5103
 - 使用FwRuntimeServices.efi和OcQuirks.efi替换掉了AptioMemoryFix.efi
 - 所有Kext驱动采用当前最新源代码编译
