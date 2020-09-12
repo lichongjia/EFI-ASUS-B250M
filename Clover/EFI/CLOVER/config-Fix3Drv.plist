@@ -55,7 +55,7 @@
 	<key>GUI</key>
 	<dict>
 		<key>Theme</key>
-		<string>Pure</string>
+		<string>ASUS</string>
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
@@ -170,19 +170,6 @@
 	<dict>
 		<key>InjectKexts</key>
 		<string>Yes</string>
-	</dict>
-	<key>Quirks</key>
-	<dict>
-		<key>EnableSafeModeSlide</key>
-		<true/>
-		<key>SetupVirtualMap</key>
-		<true/>
-		<key>AvoidRuntimeDefrag</key>
-		<true/>
-		<key>ProvideCustomSlide</key>
-		<true/>
-		<key>EnableWriteUnprotector</key>
-		<true/>
 	</dict>
 </dict>
 </plist>
