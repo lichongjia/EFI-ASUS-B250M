@@ -34,13 +34,51 @@ EFI-ASUS-B250M
 
 
 
+## OpenCore
+
+[![OpenCorePrev](https://img.shields.io/badge/OpenCore-%E4%B8%BB%E9%A2%98%E9%93%BE%E6%8E%A5-9cf)](https://github.com/lichongjia/OpenCanopy-Icons)
+
+<img title="OpenCoreTheme" src="Docs/img/OpenCoreTheme_prev.png" alt="OpenCoreTheme_prev" data-align="center">
+
+
+
+## Clover
+
+[![CloverPrev](https://img.shields.io/badge/Clover-%E4%B8%BB%E9%A2%98%E9%93%BE%E6%8E%A5-9cf)](https://github.com/lichongjia/CloverVectorTheme)
+
+<img title="CloverVectorTheme" src="Docs/img/CloverVectorTheme_prev.png" alt="CloverVectorTheme_prev" data-align="center">
+
+
+
+## OpenCanopy-Icons Preview
+**Pure:**
+
+<p style="text-align: center">
+    <img src="./Docs/img/Pure_Icons_prev.png">
+</p>
+
+
+**BlacKK:**
+
+<p style="text-align: center">
+    <img src="./Docs/img/BlacKK_Icons_prev.png">
+</p>
+
+
+**BlackJFZ:**
+
+<p style="text-align: center">
+    <img src="./Docs/img/BlackJFZ_Icons_prev.png">
+</p>
+
+
 ## 多系统引导
 
 [![GitHub All Releases](https://img.shields.io/badge/%E6%95%99%E7%A8%8B%E9%93%BE%E6%8E%A5-%E8%BF%9C%E6%99%AF%E8%AE%BA%E5%9D%9B-9cf.svg)](http://bbs.pcbeta.com/viewthread-1835917-1-1.html)
 
-多系统引导界面，使用rEFInd管理OpenCore引导。(macOS(OpenCore), Windows10, Ubuntu)
+多系统引导使用rEFInd管理OpenCore。(macOS(OpenCore), Windows10, Ubuntu)
 
-<img title="BootMenuRefind" src="Docs/img/BootMenuRefind.png" alt="BootMenuRefind" data-align="center">
+详细教程已发到远景论坛。
 
 
 

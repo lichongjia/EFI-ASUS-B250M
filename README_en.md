@@ -11,7 +11,7 @@ This EFI configuration works perfectly on my desktop, Everything works fine. If 
 
 ***Please download the latest version from [Releases](https://github.com/lichongjia/EFI-ASUS-B250M/releases).***
 
-There are some tips and suggestions under the [Docs](Docs/) folder!
+There are some tips and suggestions in the [Docs](Docs/) folder!
 
 Additional tutorial：[Making a multi-functional bootable USB flash drive](Docs/BootUSB.md)
 
@@ -34,13 +34,52 @@ Additional tutorial：[Making a multi-functional bootable USB flash drive](Docs/
 
 
 
+## OpenCore
+
+[![OpenCorePrev](https://img.shields.io/badge/OpenCore-Theme%20Link-9cf)](https://github.com/lichongjia/OpenCanopy-Icons)
+
+<img title="OpenCoreTheme" src="Docs/img/OpenCoreTheme_prev.png" alt="OpenCoreTheme_prev" data-align="center">
+
+
+
+## Clover
+
+[![CloverPrev](https://img.shields.io/badge/Clover-Theme%20Link-9cf)](https://github.com/lichongjia/CloverVectorTheme)
+
+<img title="CloverVectorTheme" src="Docs/img/CloverVectorTheme_prev.png" alt="CloverVectorTheme_prev" data-align="center">
+
+
+
+## OpenCanopy-Icons Preview
+**Pure:**
+
+<p style="text-align: center">
+    <img src="./Docs/img/Pure_Icons_prev.png">
+</p>
+
+
+**BlacKK:**
+
+<p style="text-align: center">
+    <img src="./Docs/img/BlacKK_Icons_prev.png">
+</p>
+
+
+**BlackJFZ:**
+
+<p style="text-align: center">
+    <img src="./Docs/img/BlackJFZ_Icons_prev.png">
+</p>
+
+
+
 ## Multi-Boot
 
 [![GitHub All Releases](https://img.shields.io/badge/Tutorial%20Link-PCbeta-9cf.svg)](http://bbs.pcbeta.com/viewthread-1835917-1-1.html)
 
-Use rEFInd to load OpenCore。(macOS(OpenCore), Windows10, Ubuntu)
+Multi-Boot use rEFInd to load OpenCore。(macOS(OpenCore), Windows10, Ubuntu)
 
-<img title="BootMenuRefind" src="Docs/img/BootMenuRefind.png" alt="BootMenuRefind" data-align="center">
+The detailed tutorial has been posted to the PCbeta Forum.
 
 
 
