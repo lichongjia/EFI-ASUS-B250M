@@ -58,17 +58,10 @@ Additional tutorial：[Making a multi-functional bootable USB flash drive](Docs/
 </p>
 
 
-**BlacKK:**
+**Jianfengzhi:**
 
 <p style="text-align: center">
-    <img src="./Docs/img/BlacKK_Icons_prev.png">
-</p>
-
-
-**BlackJFZ:**
-
-<p style="text-align: center">
-    <img src="./Docs/img/BlackJFZ_Icons_prev.png">
+    <img src="./Docs/img/Jianfengzhi_Icons_prev.png">
 </p>
 
 
