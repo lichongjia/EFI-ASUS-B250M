@@ -6,7 +6,15 @@
 
 - OpenCore更新到0.7.0
 - 所有驱动更新到当前最新
-- OC 0.7.0主要是主题方面的更新，加强了OpenCanopy的功能，添加了flavour属性来使用自定义命名的图标。另外在引导菜单项还添加了一个ToggleSip(类似App csrutil)，可用来开关SIP状态。Tool文件夹里面同样还添加了一个CsrUtil.efi工具用来设置SIP，ToggleSip和CsrUtil.efi可以共存，后者功能更强大。
+- OC 0.7.0主要是主题方面的更新，加强了OpenCanopy的功能，添加了Flavour属性来使用自定义命名的图标。另外在引导菜单项还添加了一个ToggleSip项(类似Apple csrutil)，可用来开关SIP状态。Tool文件夹里面同样还添加了一个CsrUtil.efi工具也是用来设置SIP的，ToggleSip和CsrUtil.efi可以共存，后者功能更强大。
+- 好长时间没有更新版本了！这次索性把主题图标也一起更新了。添加了更多的图标来适配0.7.0。
+- 因为我基本上是不用主题的，所以我的config.plist都是不包括主题的配置。
+- 如果你要用我的主题图标的话，请按照以下参数设置config.plist可达到比较好的效果：
+`Misc -> Boot -> PickerMode: External`
+`Misc -> Boot -> PickerAttributes: 130`（如果想要在引导界面中使用鼠标可改为146）
+`Misc -> Boot -> PickerVariant: Acidanthera\Jianfengzhi`
+`UEFI -> Drivers: 添加OpenCanopy.efi`
+- 关于Entries和Tool自定义项的Flavour属性，config中我已经设置好了。
 
 #### 2021/01/12（0.6.5）
 
