@@ -7,11 +7,11 @@ EFI-ASUS-B250M
 
 <img title="USBmap" src="Docs/USBmap.png" alt="USBmap" data-align="center">
 
-此EFI配置在我自己的台式机上所有部件都完美工作，不敢说百分百完美，但完成度非常之高！如果你的配置恰好和我一样或类似，你可以根据自己的需要来选用。理论上来说，只要你是100系或以上主板，都可以使用我的EFI作为模板来配置。
+此EFI配置在我自己的台式机上所有部件都完美工作，不敢说百分百完美，但完成度非常之高！如果你的配置恰好和我一样或类似，你可以根据自己的需要来选用。理论上来说，只要你是200系主板，都可以使用我的EFI作为模板来配置。
 
-***请从[Releases](https://github.com/lichongjia/EFI-ASUS-B250M/releases)下载最新版。***
+***请从 [Releases](https://github.com/lichongjia/EFI-ASUS-B250M/releases)下载最新版。***
 
-[Docs](Docs/)文件夹有一些有用的提示和建议！
+[Docs](Docs/) 文件夹有一些有用的提示和建议！
 
 附加教程：[制作多功能多启动多合一引导U盘](Docs/BootUSB.md)
 
@@ -42,7 +42,7 @@ EFI-ASUS-B250M
 
 
 
-## Clover
+## [CloverVectorTheme](https://github.com/lichongjia/CloverVectorTheme)
 
 [![CloverPrev](https://img.shields.io/badge/Clover-%E4%B8%BB%E9%A2%98%E9%93%BE%E6%8E%A5-9cf)](https://github.com/lichongjia/CloverVectorTheme)
 
@@ -50,7 +50,7 @@ EFI-ASUS-B250M
 
 
 
-## OpenCanopy-Icons Preview
+## [OpenCanopy-Icons](https://github.com/lichongjia/OpenCanopy-Icons)
 **Pure:**
 
 <p style="text-align: center">
@@ -69,17 +69,17 @@ EFI-ASUS-B250M
 
 [![GitHub All Releases](https://img.shields.io/badge/%E6%95%99%E7%A8%8B%E9%93%BE%E6%8E%A5-%E8%BF%9C%E6%99%AF%E8%AE%BA%E5%9D%9B-9cf.svg)](http://bbs.pcbeta.com/viewthread-1835917-1-1.html)
 
-多系统引导使用rEFInd管理OpenCore。(macOS(OpenCore), Windows10, Ubuntu)
+多系统引导使用rEFInd管理OpenCore（macOS(OpenCore), Windows10, Ubuntu）
 
-详细教程已发到远景论坛。
+[详细教程](https://bbs.pcbeta.com/viewthread-1835917-1-1.html)已发到远景论坛。
 
 
 
 ## 更新说明
 
-* 已转OpenCore！后续更新会将主要精力放在OpenCore上。
-* Clover版本已经非常完美了，后续可能不会有大的改动，仅更新版本号和驱动。
-* 详细更新日志请查看[Changelog](Changelog.md)。
+* 推荐使用OpenCore！后续只更新OpenCore。
+* 如果你使用旧版系统，Clover版本已经非常完善了。可以养老！
+* 详细更新日志请查看 [Changelog](Changelog.md)
 
 
 
@@ -87,7 +87,7 @@ EFI-ASUS-B250M
 
 如果这个项目对你有帮助，你可以捐赠或者关注一下我的公众号。
 
-如果你在安装或使用过程中有任何疑问，可以通过主页的联系方式私信我。也许我可以给你提供一些帮助!
+如果你在安装或使用过程中有任何疑问，可以通过主页的联系方式私信我。也许我可以给你提供一些帮助！
 
 <img title="QRcode" src="Docs/img/QRcode.png" alt="QRcode" data-align="center">
 
