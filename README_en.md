@@ -86,15 +86,11 @@ The detailed tutorial has been posted to the PCbeta Forum. [Tutorial link](https
 
 ## About
 
-If this project is helpful to you, you can donate or star my WeChat Official Account.
+If this project is helpful to you, you can donate or follow me. If you have any problems with the installation or use, you can send me a message via the contact information below. Maybe I can give you some help!
 
-If you have any problems with the installation or use, you can send me a message via the contact information below. Maybe I can give you some help!
+***Twitter:*** *[@lichongjia](https://twitter.com/lichongjia)*
 
+***Telegram:*** *[@lichongjia](https://t.me/lichongjia)*
 
-
-<div align="center">
-  <p><b>Twitter</b>: <a href="https://twitter.com/lichongjia">@lichongjia</a></p>
-  <p><b>Telegram</b>: <a href="https://t.me/lichongjia">@lichongjia</a></p>
-  <img src="Docs/img/QRcode_WhatsApp.png">
-</div>
+<img title="USBmap" src="Docs/img/QRcode_WhatsApp.png" alt="QRcode_WhatsApp" align="left">
 
