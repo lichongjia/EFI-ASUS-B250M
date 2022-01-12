@@ -3,17 +3,17 @@ EFI-ASUS-B250M
 
 [![GitHub All Releases](https://img.shields.io/github/downloads/lichongjia/EFI-ASUS-B250M/total.svg?color=brightgreen)](https://github.com/lichongjia/EFI-ASUS-B250M/releases) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/lichongjia/EFI-ASUS-B250M.svg)](https://github.com/lichongjia/EFI-ASUS-B250M/releases) [![GitHub last commit](https://img.shields.io/github/last-commit/lichongjia/EFI-ASUS-B250M.svg?color=red)](https://github.com/lichongjia/EFI-ASUS-B250M/commits/master) [![Twitter URL](https://img.shields.io/twitter/url.svg?color=red&label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Flichongjia)](https://twitter.com/lichongjia)
 
-[中文](README.md) | English
+English | [Chinese](README.md)
 
 <img title="USBmap" src="Docs/USBmap.png" alt="USBmap" data-align="center">
 
-This EFI configuration works perfectly on my desktop, Everything works fine. If your configuration happens to be the same or similar to mine, you can use it. In theory, If your motherboard is 100 series or higher, you can use my EFI as a template for configuration.
+This EFI configuration works perfectly on my desktop. Everything works fine! If your configuration happens to be the same or similar to mine, you can use it. In theory, if your motherboard is 200 series, you can use my EFI as a template for configuration.
 
 ***Please download the latest version from [Releases](https://github.com/lichongjia/EFI-ASUS-B250M/releases).***
 
 There are some tips and suggestions in the [Docs](Docs/) folder!
 
-Additional tutorial：[Making a multi-functional bootable USB flash drive](Docs/BootUSB.md)
+Additional tutorial：[Making a multi-functional bootable USB flash drive (only Chinese)](Docs/BootUSB.md)
 
 
 
@@ -42,7 +42,7 @@ Additional tutorial：[Making a multi-functional bootable USB flash drive](Docs/
 
 
 
-## Clover
+## [CloverVectorTheme](https://github.com/lichongjia/CloverVectorTheme)
 
 [![CloverPrev](https://img.shields.io/badge/Clover-Theme%20Link-9cf)](https://github.com/lichongjia/CloverVectorTheme)
 
@@ -50,7 +50,7 @@ Additional tutorial：[Making a multi-functional bootable USB flash drive](Docs/
 
 
 
-## OpenCanopy-Icons Preview
+## [OpenCanopy-Icons](https://github.com/lichongjia/OpenCanopy-Icons)
 **Pure:**
 
 <p style="text-align: center">
@@ -70,17 +70,17 @@ Additional tutorial：[Making a multi-functional bootable USB flash drive](Docs/
 
 [![GitHub All Releases](https://img.shields.io/badge/Tutorial%20Link-PCbeta-9cf.svg)](http://bbs.pcbeta.com/viewthread-1835917-1-1.html)
 
-Multi-Boot use rEFInd to load OpenCore。(macOS(OpenCore), Windows10, Ubuntu)
+Multi-Boot use rEFInd to load OpenCore. (macOS(OpenCore), Windows10, Ubuntu)
 
-The detailed tutorial has been posted to the PCbeta Forum.
+The detailed tutorial has been posted to the PCbeta Forum. [Tutorial link](https://bbs.pcbeta.com/viewthread-1835917-1-1.html)
 
 
 
 ## Release Notes
 
-* Switch to OpenCore! Future updates will focus on OpenCore.
-* The Clover configuration has been perfected and may not change much in the future.
-* For more info, see [Changelog](Changelog.md).
+* OpenCore is recommended! Future updates will focus on OpenCore.
+* The Clover configuration has been perfected and may not change much in the future. Only supports Catalina and earlier. 
+* For more info, view [Changelog](Changelog.md).
 
 
 
@@ -88,7 +88,13 @@ The detailed tutorial has been posted to the PCbeta Forum.
 
 If this project is helpful to you, you can donate or star my WeChat Official Account.
 
-If you have any questions during installation or use, you can send me a message through the contact info on the homepage. Maybe I can give you some help!
+If you have any problems with the installation or use, you can send me a message via the contact information below. Maybe I can give you some help!
 
-<img title="QRcode" src="Docs/img/QRcode.png" alt="QRcode" data-align="center">
+
+
+<div align="center">
+  <p><b>Twitter</b>: <a href="https://twitter.com/lichongjia">@lichongjia</a></p>
+  <p><b>Telegram</b>: <a href="https://t.me/lichongjia">@lichongjia</a></p>
+  <img src="Docs/img/QRcode_WhatsApp.png">
+</div>
 
