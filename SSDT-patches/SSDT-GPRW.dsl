@@ -1,5 +1,6 @@
 /*
- * In config ACPI, GPRW to XPRW
+ * 0D/6D wakeup patch
+ * In config.plist->ACPI->Patch: GPRW to XPRW
  * Find:     47505257 02
  * Replace:  58505257 02
  */

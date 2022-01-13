@@ -1,4 +1,3 @@
-// Add EC and USBX
 /*
  * AppleUsbPower compatibility table for Skylake+.
  *
